@@ -1,0 +1,29 @@
+#cuerpo{
+    background: linear-gradient(to right, #40d654, #6bd555, #88d559, #9fd461, #b2d36a);
+}
+#cabeza{
+    background-image: url(../img/conversion.png);
+    background-color:slategray
+}
+#millas{
+    background-image: url(../img/la-carretera.png);
+    background-color: rgb(75, 206, 75);
+}
+#celsius{
+    background-image: url(../img/la-temperatura.png);
+    background-color:rgb(64, 182, 176) ;
+}
+#dolar{
+    background-image:url(../img/bolsa-de-dinero.png);
+    background-color: rgb(125, 164, 204);
+}
+#pie{
+    background-image:url(../img/codificacion.png);
+    background-color: springgreen;
+}
+#html{
+    margin-left: 55px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color:silver;
+}

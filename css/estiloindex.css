@@ -1,0 +1,36 @@
+#cuerpo{
+background: rgb(3,1,45);
+background: linear-gradient(90deg, rgba(3,1,45,1) 0%, rgba(2,0,36,1) 0%, rgba(3,2,50,1) 4%, rgba(98,98,226,1) 35%, rgba(0,212,255,1) 99%);
+}
+#circulo{
+    background-image: url(../img/circulo_amarillo.png);
+    background-color:rgba(215, 224, 247, 0.227);
+}
+#triangulo{
+    background-image: url(../img/triangulo.png);
+    background-color: tomato;
+}
+#trapecio{
+    background-image: url(../img/trapecio.png);
+    background-color: cadetblue;
+}
+#pie{
+    background-image: url(../img/codificacion.png);
+    background-color:rgb(94, 146, 150);
+}
+#cabeza{
+    background-image: url(../img/grafico-de-area.png);
+    background-color: slategray;
+    text-align: center;
+    color:white;
+}
+#javascript{
+    margin-left: 55px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color:rgb(199, 184, 101);
+}
+#tarea{
+    color: white;
+    margin-left: 55px;
+}

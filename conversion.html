@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estiloconver.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body id="cuerpo">
+     <div class="jumbotron" id="cabeza">
+        <h3 class="display-4" align="center">CONVERSIONES</h3>
+        <p align="center">En este apartado podrás sacar algunas conversiones</p>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" color="white">
+        <a href="#" class="navbar-brand"><img src="img/school.png" alt="Logo" height="50" width="50">MAX GARZÓN RUIZ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Areas</li></a>
+                <li class="nav-item"><a href="volumen.html" class="nav-link">Volumenes</li></a>
+                <li class="nav-item"><a href="conversion.html" class="nav-link">Conversiones</li></a>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <hr>
+        <div class="contaier-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                
+                <i><h3>Entrega la tarea en:</h3></i>
+                <ul>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-success" target="_blank" href="https://classroom.google.com/u/0/c/Mjc1MDMxOTQ5NzE2?hl=es" id="instagram"><img src="img/classroom.png" height="25" width="25">classroom</a>
+                </li></ul>
+                <div class="card" style="width: 18rem;" id="html" align="center">
+                    <img src="img/html-5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">
+                        ¿SABÍAS QUÉ?<br>
+                        Los desarrolladores de HTML5 tienen que corregir su propio código. Esto crea una situación horrible, ya que falta cualquier mecanismo de depuración/debugging. Por lo tanto, es correcto decir que las aplicaciones  de HTML5  basadas en las necesidades del cliente no son seguros.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="jumbotron" id="millas">
+                    <h1 class="display-4" align="center">Metros a Millas</h1>
+                    <p align="center">Al hacer click puedes ingresar los datos para calcular el volumen de cualquier cilindro</p>
+                    <button type="button" class="btn btn-dark" onclick="metrosMillas()">Convertir</button>
+                </div>
+                <hr>
+                <div class="jumbotron" id="celsius">
+                    <h1 class="display-4" align="center">Celsius a Farenheit</h1>
+                    <p align="center">Al hacer clíck aquí puedes ingresar los datos para calcular el volumen de cualquier esfera</p>
+                    <button type="button" class="btn btn-dark" onclick="conversionGrados()">Convertir</button>
+                </div>
+                <hr>
+                <div class="jumbotron" id="dolar">
+                    <h1 class="display-4" align="center">Peso a Dolar</h1>
+                    <p align="center">Al hacer clíck aquí puedes ingresar los datos para calcular el volumen de cualquier cubo</p>
+                    <button type="button" class="btn btn-dark" onclick="conversionMoneda()">Convertir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="jumbotron" id="pie">
+        <h5 class="display-5" align="center">Garzón Ruiz Mauricio Max</h5>
+        <h5 class="display-5" align="center">Cruz Enríque Garcia</h5>
+        <h5 class="display-5" align="center">CBtis No.134</h5>
+        <h5 class="display-5" align="center">Chilpancingo de los Bravo, Guerrero</h5>
+        <h5 class="display-5" align="center">4°B programación</h5>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
